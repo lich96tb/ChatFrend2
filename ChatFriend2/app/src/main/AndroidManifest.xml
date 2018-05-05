@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".View.MainChatFrend"
+            android:label="@string/title_activity_main_chat_frend"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
