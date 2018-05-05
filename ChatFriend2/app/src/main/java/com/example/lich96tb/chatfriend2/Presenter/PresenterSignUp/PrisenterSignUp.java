@@ -1,4 +1,4 @@
-package com.example.lich96tb.chatfriend2.Presenter.SignUp;
+package com.example.lich96tb.chatfriend2.Presenter.PresenterSignUp;
 
 import com.example.lich96tb.chatfriend2.Model.ModelSignUp.ModelResult;
 import com.example.lich96tb.chatfriend2.Model.ModelSignUp.ModelSigUp;

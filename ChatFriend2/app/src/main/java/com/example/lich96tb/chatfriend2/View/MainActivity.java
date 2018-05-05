@@ -9,8 +9,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.lich96tb.chatfriend2.Presenter.SignUp.IPrisenterSigUpResult;
-import com.example.lich96tb.chatfriend2.Presenter.SignUp.PrisenterSignUp;
+import com.example.lich96tb.chatfriend2.Presenter.PresenterSigIn.PresenterSignIn;
+import com.example.lich96tb.chatfriend2.Presenter.PresenterSignUp.IPrisenterSigUpResult;
+import com.example.lich96tb.chatfriend2.Presenter.PresenterSignUp.PrisenterSignUp;
 import com.example.lich96tb.chatfriend2.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener,IPrisenterSigUpResult {
@@ -53,7 +54,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         enterThePass = edtEnterThePass.getText().toString();
         switch (v.getId()) {
             case R.id.btnSigin:
-
+                PresenterSignIn presenterSignIn=new PresenterSignIn();
+                presenterSignIn.ReceivedHanlerPresenterSignIn(email,pass);
                 break;
             case R.id.btnSigup:
                 PrisenterSignUp prisenterSignUp = new PrisenterSignUp(this);
