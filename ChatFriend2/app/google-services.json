@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "589490673232",
+    "firebase_url": "https://chatfriend2-9dfdf.firebaseio.com",
+    "project_id": "chatfriend2-9dfdf",
+    "storage_bucket": "chatfriend2-9dfdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589490673232:android:0549927238b5608e",
+        "android_client_info": {
+          "package_name": "com.example.lich96tb.chatfriend2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589490673232-alt6uckmmn460t20h2f6li1ucbrssug2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lich96tb.chatfriend2",
+            "certificate_hash": "fbb8eeb7568256f5b87ce3943b225136d4281a00"
+          }
+        },
+        {
+          "client_id": "589490673232-emlgit9ev53rq5oehm1afagt1cjks0cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGcurCDmUftSAdq2a9EehHH5VaVjETj74"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589490673232-emlgit9ev53rq5oehm1afagt1cjks0cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
